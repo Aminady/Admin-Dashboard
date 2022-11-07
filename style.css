@@ -34,13 +34,14 @@ button {
     width: 100px;
     margin: 10px;
     color: white;
-    background: #D946EF;
+    /* background: #D946EF; */
+    background: #46b9ef;
     cursor: pointer;
 }
 
 .flex-icon:hover {
-    background: #FAE8FF;
-    color: #A21CAF;
+    background: #feffff;
+    color: #6ee2ff;
     box-shadow: 1px 5px 8px rgba(190, 189, 189, 0.589);
 
 }
@@ -53,6 +54,7 @@ button {
 header {
     grid-column: 2 / 3;
     background: white;
+    margin-bottom: 20px;
     box-shadow: 1px 5px 8px rgba(190, 189, 189, 0.589);
     display: flex;
     flex-direction: row;
@@ -78,7 +80,8 @@ header {
 .dashboard {
     text-align: center;
     padding: 15px;
-    background: #A21CAF;
+    /* background: #A21CAF; */
+    background: #1435af;
     color: white;
     letter-spacing: 1px;
     font-size: 20px;
@@ -101,7 +104,8 @@ img {
 }
 
 .middle-part {
-    background: #FAE8FF;
+    /* background: #FAE8FF; */
+    background: white;
     padding: 20px;
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -130,7 +134,8 @@ img {
     padding: 10px;
     background: white;
     border-radius: 5px;
-    border-left: 7px solid #9D174D;
+    /* border-left: 7px solid #9D174D; */
+    border-left: 7px solid #1f115e;
     box-shadow: 1px 5px 8px rgba(190, 189, 189, 0.589);
     /* margin: 10px; */
 }
