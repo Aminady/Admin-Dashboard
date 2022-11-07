@@ -41,7 +41,7 @@ button {
 
 .flex-icon:hover {
     background: #feffff;
-    color: #6ee2ff;
+    color: #46b9ef;
     box-shadow: 1px 5px 8px rgba(190, 189, 189, 0.589);
 
 }
@@ -159,7 +159,7 @@ img {
 
 
 .trending {
-    margin-top: 40px;
+    margin-top: 48px;
 }
 
 .trending2 {
