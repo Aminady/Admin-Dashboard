@@ -34,7 +34,6 @@ button {
     width: 100px;
     margin: 10px;
     color: white;
-    /* background: #D946EF; */
     background: #46b9ef;
     cursor: pointer;
 }
@@ -93,8 +92,6 @@ header {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    /* display: grid;
-    grid-template-rows: 100px 200px 200px; */
 }
 
 img {
@@ -104,7 +101,6 @@ img {
 }
 
 .middle-part {
-    /* background: #FAE8FF; */
     background: white;
     padding: 20px;
     display: grid;
@@ -119,8 +115,6 @@ img {
 
 .article2 {
     display: grid;
-    /* grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;  */
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-template-rows: repeat(2, 1fr);  
     row-gap: 30px;
@@ -134,10 +128,8 @@ img {
     padding: 10px;
     background: white;
     border-radius: 5px;
-    /* border-left: 7px solid #9D174D; */
     border-left: 7px solid #1f115e;
     box-shadow: 1px 5px 8px rgba(190, 189, 189, 0.589);
-    /* margin: 10px; */
 }
 
 .title {
